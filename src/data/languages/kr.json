@@ -1,0 +1,279 @@
+{
+    "main": {
+        "home": {
+            "screen_title": "홈",
+            "building_info": "건물 정보",
+            "user_info": "개인 정보"
+        },
+        "parking": {
+            "home": {
+                "screen_title": "주차",
+                "my_vehicle_info": "내 차량 정보",
+                "villa_vehicle_info": "빌라차량 정보",
+                "register_guest": "방문자 등록",
+                "say_no_vehicle_info": "차량 정보가 없습니다.",
+                "induce_to_register_own_vehicle": "원활한 빌라 주차를 위해 차량의 정보를 입력해주세요.",
+                "modify_vehicle_info": "차량 정보 수정하기",
+                "request_to_modify_etda": "출차 및 입차 시간을 수정해주세요.",
+                "request_to_modify_vehicle_info": "차량 번호와 모델을 수정해주세요.",
+                "inform_to_modify_vehicle_info": "차량 번호와 모델 수정하기"
+            },
+            "register_vehicle": {
+                "screen_title": "차량 정보 등록",
+                "register_own_vehicle": "내 차량 정보 등록",
+                "request_input_vehicle_info": "일일 출차시간 및 입차시간과 차량 정보를 입력 해주세요.",
+                "vehicle_plate_number_input_placeholder": "000가 00000의 형식으로 입력해주세요.",
+                "vehicle_model_number_input_placeholder": "특수문자 제외, 공백 포함 3 ~ 15 글자를 입력해주세요.",
+                "invalid_plate_number_and_model": "차량 번호와 모델을 확인해주세요.",
+                "invalid_plate_number": "차량 번호를 확인해주세요.",
+                "invalid_model": "차량 모델을 확인해주세요."
+            },
+            "register_guest_vehicle": {
+                "screen_title": "방문 차량 정보 등록",
+                "register_guest_vehicle": "방문자 차량 정보 등록",
+                "request_input_vehicle_info": "방문 일정과 차량 정보를 입력 해주세요.",
+                "vehicle_plate_number_input_placeholder": "000가 00000의 형식으로 입력해주세요.",
+                "phone_number_input_placeholder": "연락이 가능한 연락처를 기재해주세요.",
+                "visiting_perpose_input_placeholder": "방문 목적을 기재해주세요.",
+                "invalid_input_value": "입력한 정보들을 다시 확인해주세요."
+            },
+            "send_park_push_noti": {
+                "screen_title": "차량 주차 알림",
+                "request_to_send_park_noti": "양식에 맞게 주차 알림을 송부해주세요.",
+                "parked_double": "제가 이중 주차를 했습니다.",
+                "scheduled_to_depart_at": "에 출차 예정입니다.",
+                "request_noti_to_go_out_first": "먼저 나가실 경우 알려주세요.",
+                "request_to_change_the_parking_spot": "주차 자리 변경 부탁드립니다."
+            },
+            "modify_modal": {
+                "succed_to_change_etda": "입출차 시간을 변경했습니다.",
+                "fail_to_change_etda": "입출차 시간을 변경하지 못했습니다.",
+                "succed_to_change_info": "차량 정보를 변경했습니다.",
+                "fail_to_change_info": "차량 정보를 변경하지 못했습니다."
+            },
+            "message_selection_modal": {
+                "double_parking": "이중주차 알림",
+                "change_request": "변경요청 알림"
+            },
+            "home_content": {
+                "screen_title": "주차 관리",
+                "no_registed_vehicle": "등록된 차량이 없습니다.",
+                "estimated_time_of_departure": "나의 출차 예정 시간",
+                "vehicle_list": "차량\n리스트",
+                "register_guest_vehicle": "방문자\n등록",
+                "departure_management": "출차\n관리"
+            },
+            "common": {
+                "registration_successful": "차량 등록이 완료되었습니다.",
+                "registration_failure": "차량 등록에 실패했습니다.",
+                "request_registration_successful": "차량 등록 요청이 완료되었습니다.",
+                "request_registration_failure": "차량 등록 요청을 실패했습니다."
+            }
+        },
+        "complaint": {
+            "screen_title": "민원",
+            "renter_home_content_title": "나의 민원",
+            "frequently_reported_complaints": "자주 생기는 민원",
+            "frequently_reported_complaints_guide": "자주 생기는 민원을 정리했습니다. 확인 후 민원 등록 부탁드립니다.",
+            "complaints_received": "접수된 민원",
+            "complaints_in_progress": "처리중인 민원",
+            "complaints_done": "지난 민원",
+            "register": "민원등록",
+            "detail": "민원 상세보기",
+            "received": "접수",
+            "inprogress": "처리중",
+            "done": "완료",
+            "progress_status": "진행 상황",
+            "edit_progress_status": "진행 상황 편집",
+            "edit_progress_status_guide": "진행 상황에 맞게 편집해주세요",
+            "complaint_received_and_in_progress": "진행중인 민원",
+            "when_complaint_empty": "여기를 눌러 새로운 민원을 등록해주세요.",
+            "when_complaint_empty_admin": "등록된 민원이 없습니다."
+        },
+        "payment": {
+            "screen_title": "관리비"
+        },
+        "mypage": {
+            "screen_title": "My"
+        },
+        "noti": {
+            "screen_title": "공지사항",
+            "screen_modify_title": "공지사항 수정",
+            "screen_register_title": "공지사항 등록",
+            "delete_success": "공지사항 삭제 성공",
+            "delete_error": "공지사항 삭제 실패",
+            "modify": "수정하기",
+            "delete": "삭제하기",
+            "delete_title": "정말 삭제하겠습니까?",
+            "required_reading": "필독",
+            "important_reading": "레벨2",
+            "reading": "일반",
+            "noti_sucess": "공지사항 등록이 완료 되었어요!",
+            "noti_error": "죄송합니다,공지사항 등록에 실패했어요",
+            "noti_editor_title": "제목을 입력해주세요",
+            "noti_editor_subtitle": "내용을 입력해주세요",
+            "noti_title_error": "제목 또는 내용을 입력해주세요",
+            "noti_important_modal": "중요",
+            "noti_general_modal": "일반",
+            "when_noti_empty": "등록된 공지사항이 없습니다.",
+            "when_noti_empty_admin": "등록된 공지사항이 없습니다.\n \n여기를 눌러 공지사항을 등록해주세요."
+        },
+        "approval": {
+            "screen_title": "승인함",
+            "reject_success": "요청을 거절하였습니다.",
+            "reject_error": "거절 실패하였습니다, 계속 실패하실 경우 제작사에 문의 부탁드립니다.",
+            "accept_success": "요청을 승인하였습니다.",
+            "accept_error": "승인에 실패하였습니다, 계속 실패하실 경우 제작사에 문의 부탁드립니다.",
+            "reject": "거절",
+            "accept": "승인",
+            "reject_title": "정말 거절하겠습니까?",
+            "building_name": "빌라 이름",
+            "room_number": "호수",
+            "user_name": "이름",
+            "phone_number": "전화번호",
+            "title_1001": "신규 가입",
+            "sub_title": "정보 확인 후 수정사항 없을 시 수락 부탁드립니다.",
+            "vehicle_number": "차량 번호",
+            "vehicle_model": "차량 모델",
+            "title_1003": "차량 정보 등록",
+            "title_1004": "차량 정보 수정"
+        }
+    },
+    "auth": {
+        "login": {
+            "screen_title": "로그인",
+            "request_login": {
+                "line_1": "빌라이프 서비스 이용을 위해",
+                "line_2": "로그인 해주세요."
+            },
+            "title_of_id_input": "아이디",
+            "title_of_password_input": "비밀번호",
+            "title_of_login_btn": "로그인",
+            "title_of_naver_social_login_btn": "네이버 로그인",
+            "join": "회원가입",
+            "reset_password": "비밀번호 재설정",
+            "invalid_login_data": {
+                "id": "잘못된 계정 정보가 입력 되었습니다.",
+                "password": "옳바른 아이디와 패스워드를 입력해주세요."
+            }
+        },
+        "join": {
+            "screen_title": "회원가입",
+            "join": "빌라이프 가입",
+            "identification": "본인인증",
+            "title_of_name_input": "이름",
+            "title_of_birth_input": "생년월일",
+            "title_of_select_carrier_input": "통신사(선택)",
+            "title_of_send_btn": "인증번호 전송"
+        },
+        "create_account": {
+            "screen_title": "계정생성",
+            "title": "ID & 비밀번호 설정하기",
+            "subtitle": "상황에 맞게 임차인, 관리자를 선택해주세요.",
+            "name_input_title": "ID",
+            "name_input_placeholder": "사용할 ID를 입력해주세요.",
+            "password_input_title": "비밀번호",
+            "password_input_placeholder": "영문, 숫자, 특문문자 조합으로 입력해주세요.",
+            "confirm_password_input_title": "비밀번호 확인",
+            "confirm_password_input_placeholder": "비밀번호를 한번 더 입력해주세요.",
+            "next_btn_title": "다음"
+        },
+        "set_building": {
+            "screen_title": "빌딩 선택",
+            "title": "내 빌라 정보 설정하기",
+            "subtitle": "회원가입을 완료하고 관리사무소의 가입 승인을 기다려주세요.",
+            "adress_input_title": "주소",
+            "adress_input_placeholder": "빌라명을 검색해주세요.",
+            "room_number_input_title": "호수",
+            "room_number_input_placeholder": "호수를 입력해주세요.",
+            "car_number_input_title": "차량번호",
+            "car_number_input_placeholder": "차량번호를 입력해주세요.",
+            "nickname_input_title": "닉네임",
+            "nickname_input_placeholder": "닉네임을 입력해주세요.",
+            "next_btn_title": "다음",
+            "next_btn_title_when_change_next": "다음에 변경하기"
+        },
+        "terms_of_service": {
+            "screen_title": "terms_of_service",
+            "title": "빌라이프 가입하기",
+            "subtitle": "다음 약관에 동의하신 후 새롭고 편리한 빌라 생활을 시작해 보세요.",
+            "terms_of_service_all": "약관에 모두 동의합니다",
+            "terms_of_service_service": "서비스 이용약관 동의",
+            "terms_of_service_Privacy": "개인정보 처리방침 동의"
+        },
+        "welcome": {
+            "screen_title": "welcome",
+            "title": "빌라이프 회원이 되신 것을 환영합니다.",
+            "subtitle_1": "회원가입 절차가 모두 완료 되었습니다.",
+            "subtitle_2": "로그인 후 편리한 빌라이프 서비스를 확인해 보세요.",
+            "next_btn_title": "확인"
+        },
+        "permission_request": {
+            "screen_title": "permission_request",
+            "title": "빌라이프에서 사용하는 \n'권한'을 알려드립니다.",
+            "subtitle_1": "필수 접근 권한",
+            "phone_permission_1": "전화",
+            "phone_permission_2": "가입, 충전/결제, 고객센터 연결 시 접근",
+            "address_book_1": "주소록",
+            "address_book_2": "가입/로그인 시 계정정보 확인 및 Pay 이용 시 접근",
+            "subtitle_2": "선택 접근 권한",
+            "camera_permission_1": "카메라",
+            "camera_permission_2": "카드 등록 및 QR코드 스캔 시 접근",
+            "location_permission_1": "위치",
+            "location_permission_2": "주차관리 시 사용",
+            "Additional_Information_1": "※ 선택 접근 권한은 허용하지 않아도 해당 기능 외 서비스 이용이 가능합니다.",
+            "Additional_Information_2": "※ ‘휴대폰 설정>애플리케이션>빌라이프’에서 접근 권한을 변경할 수 있습니다.",
+            "next_btn_title_1": "종료",
+            "next_btn_title_2": "확인"
+        }
+    },
+    "splash": {
+        "screen_title": "splash"
+    },
+    "words": {
+        "admin": "관리자",
+        "renter": "임차인",
+        "landlord": "임대인",
+        "siteAdmin": "사이트관리자",
+        "use_english": "영문",
+        "use_english_only_smallcase": "소문자",
+        "use_number": "숫자",
+        "use_special_char": "특수문자",
+        "tokens_for_4to10": "4~10자 이내",
+        "tokens_for_8to20": "8~20자 이내",
+        "matching_password": "비밀번호 일치",
+        "cancle": "취소",
+        "delete": "삭제",
+        "okay": "확인",
+        "register": "등록하기",
+        "reject": "거절",
+        "accept": "수락",
+        "edit": "편집하기",
+        "correction": "수정",
+        "modified": "수정",
+        "modify": "수정하기",
+        "tenant": "거주자",
+        "guest": "방문자",
+        "etd": "출차 시간",
+        "eta": "입차 시간",
+        "plate_number": "차량 번호",
+        "vehicle_info": "차량 정보",
+        "vehicle_model": "차량 모델",
+        "visiting_perpose": "방문 목적",
+        "guest_phone_number": "방문 차량 연락처",
+        "hour": "시",
+        "minute": "분"
+    },
+    "navigation": {
+        "say_wait": "잠시만요!",
+        "ask_shutdown": "앱을 종료 하시겠습니까?",
+        "building_not_selected": "빌딩을 선택해주세요."
+    },
+    "boilerplate": {
+        "preparing_service": "서비스 준비중입니다.",
+        "contact_the_manager": "관리자에게 문의바랍니다.",
+        "try_again_soon": "잠시 후 다시 시도해주세요.",
+        "succeed_to_send_message": "메세지를 보냈습니다.",
+        "fail_to_send_message": "메세지를 보내지 못했습니다."
+    }
+}
